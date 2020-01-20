@@ -13,6 +13,6 @@ This Input Field view use to get text whatever enter by user at any time, use fo
   s.license          = { :type => 'None', :file => 'LICENSE' }
   s.ios.deployment_target = '10.0'
   s.source_files = 'ColourChangingView/ColourChangingView/InputFieldView.swift'
-  s.swift_version       = '4.0'	
+  s.swift_version       = '5.0'	
  
 end
