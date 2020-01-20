@@ -12,7 +12,7 @@ This Input Field view use to get text whatever enter by user at any time, use fo
   s.source           = { :git => 'https://github.com/Sayanta-Redapple/InputFieldView.git', :tag => s.version.to_s }
   s.license          = { :type => 'The Unlicense', :file => 'LICENSE' }
   s.ios.deployment_target = '10.0'
-  s.source_files = 'InputFieldView/InputFieldView.swift'
+  s.source_files = 'InputFieldView/InputFieldView/InputFieldView.swift'
   s.swift_version       = '5.0'	
  
 end
