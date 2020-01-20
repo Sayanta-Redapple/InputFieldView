@@ -4,7 +4,8 @@ Pod::Spec.new do |s|
   s.summary          = 'By far the most InputFieldView I have seen in my entire life. No joke.'
  
   s.description      = <<-DESC
-This Input Field view use to get text whatever enter by user at any time, use for sign up check up DESC
+This Input Field view use to get text whatever enter by user at any time, use for sign up check up 
+			DESC
  
   s.homepage         = 'https://github.com/Sayanta-Redapple/InputFieldView.git'
   s.author           = { '<SAYANTA>' => '<sayanta@redappletech.com>' }
