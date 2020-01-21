@@ -13,7 +13,7 @@ open class InputFieldView: UIView {
     @IBOutlet var viewContainer: UIView!
     @IBOutlet var textFieldInputField: UITextField!
     @IBOutlet var buttonInputField: UIButton!
-    var buttonSubmitClick: ((String) -> ()) = {_ in}
+    public var buttonSubmitClick: ((String) -> ()) = {_ in}
     
     //MARK: - View initializer
     required convenience public init(coder aDecoder: NSCoder) {
