@@ -15,6 +15,6 @@ This input field view use to get text whatever enter by user fantastic!
   s.swift_version       = '5.0'	
   s.resource_bundles = {
     'InputFieldView' => [
-    'Pod/**/*.xib'
+    'Pod/**/*.xib']
  
 end
