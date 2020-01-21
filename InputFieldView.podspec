@@ -13,6 +13,6 @@ This input field view use to get text whatever enter by user fantastic!
   s.ios.deployment_target = '10.0'
   s.source_files = 'InputFieldView/InputFieldView/InputFieldView*'
   s.swift_version       = '5.0'	
-  s.resource_bundles = { 'CheckBoxWithText' => ['CheckBoxWithText.xib'] }
+  s.resource_bundles = { 'InputFieldView' => ['InputFieldView.xib'] }
  
 end
