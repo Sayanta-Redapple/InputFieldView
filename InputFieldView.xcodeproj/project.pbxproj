@@ -12,8 +12,8 @@
 		2A1BAA4A23D5879C00336125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1BAA4823D5879C00336125 /* Main.storyboard */; };
 		2A1BAA4C23D5879F00336125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1BAA4B23D5879F00336125 /* Assets.xcassets */; };
 		2A1BAA4F23D5879F00336125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1BAA4D23D5879F00336125 /* LaunchScreen.storyboard */; };
-		2A1BAB2C23D5CE8C00336125 /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BAB2B23D5CE8C00336125 /* InputFieldView.swift */; };
-		2A1BAB2E23D5CE9F00336125 /* InputFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A1BAB2D23D5CE9F00336125 /* InputFieldView.xib */; };
+		2A5B1B0D23DAB4C000A4B587 /* InputFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B1B0B23DAB4C000A4B587 /* InputFieldView.xib */; };
+		2A5B1B0E23DAB4C000A4B587 /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B1B0C23DAB4C000A4B587 /* InputFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		2A1BAA4B23D5879F00336125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A1BAA4E23D5879F00336125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A1BAA5023D5879F00336125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A1BAB2B23D5CE8C00336125 /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
-		2A1BAB2D23D5CE9F00336125 /* InputFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputFieldView.xib; sourceTree = "<group>"; };
+		2A5B1B0B23DAB4C000A4B587 /* InputFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputFieldView.xib; sourceTree = "<group>"; };
+		2A5B1B0C23DAB4C000A4B587 /* InputFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		2A1BAA4323D5879C00336125 /* InputFieldView */ = {
 			isa = PBXGroup;
 			children = (
-				2A1BAB2A23D5CE0800336125 /* InputFieldView */,
+				2A5B1B0A23DAB4C000A4B587 /* InputFieldView */,
 				2A1BAA4423D5879C00336125 /* AppDelegate.swift */,
 				2A1BAA4623D5879C00336125 /* ViewController.swift */,
 				2A1BAA4823D5879C00336125 /* Main.storyboard */,
@@ -69,11 +69,11 @@
 			path = InputFieldView;
 			sourceTree = "<group>";
 		};
-		2A1BAB2A23D5CE0800336125 /* InputFieldView */ = {
+		2A5B1B0A23DAB4C000A4B587 /* InputFieldView */ = {
 			isa = PBXGroup;
 			children = (
-				2A1BAB2B23D5CE8C00336125 /* InputFieldView.swift */,
-				2A1BAB2D23D5CE9F00336125 /* InputFieldView.xib */,
+				2A5B1B0B23DAB4C000A4B587 /* InputFieldView.xib */,
+				2A5B1B0C23DAB4C000A4B587 /* InputFieldView.swift */,
 			);
 			path = InputFieldView;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			files = (
 				2A1BAA4F23D5879F00336125 /* LaunchScreen.storyboard in Resources */,
 				2A1BAA4C23D5879F00336125 /* Assets.xcassets in Resources */,
-				2A1BAB2E23D5CE9F00336125 /* InputFieldView.xib in Resources */,
+				2A5B1B0D23DAB4C000A4B587 /* InputFieldView.xib in Resources */,
 				2A1BAA4A23D5879C00336125 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +152,7 @@
 			files = (
 				2A1BAA4723D5879C00336125 /* ViewController.swift in Sources */,
 				2A1BAA4523D5879C00336125 /* AppDelegate.swift in Sources */,
-				2A1BAB2C23D5CE8C00336125 /* InputFieldView.swift in Sources */,
+				2A5B1B0E23DAB4C000A4B587 /* InputFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

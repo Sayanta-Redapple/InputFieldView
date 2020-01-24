@@ -18,7 +18,7 @@
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -36,12 +36,8 @@
                     </connections>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3q2-W3-2km">
-                    <rect key="frame" x="122.66666666666669" y="73" width="130" height="34"/>
+                    <rect key="frame" x="127.66666666666669" y="73" width="120" height="34"/>
                     <color key="backgroundColor" red="0.46514920483620298" green="0.62688782431899359" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="34" id="14w-Nh-ZTl"/>
-                        <constraint firstAttribute="width" constant="130" id="R3a-TS-nz1"/>
-                    </constraints>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                     <state key="normal" title="Submit">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -55,7 +51,9 @@
             <constraints>
                 <constraint firstItem="3q2-W3-2km" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="73:60" id="078-2z-vJe"/>
                 <constraint firstItem="zpB-Bk-tCT" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="260:375" id="7a1-WA-Djh"/>
+                <constraint firstItem="3q2-W3-2km" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="120:375" id="91j-eN-Js6"/>
                 <constraint firstItem="3q2-W3-2km" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Cfl-dU-6zg"/>
+                <constraint firstItem="3q2-W3-2km" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="34:120" id="IjZ-8M-EtR"/>
                 <constraint firstItem="zpB-Bk-tCT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="M5k-OS-D8m"/>
                 <constraint firstItem="zpB-Bk-tCT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="20:60" id="R5r-hx-gD5"/>
             </constraints>
